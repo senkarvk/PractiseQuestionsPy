@@ -45,7 +45,7 @@ for i in range(count):
     newFileName=rows[i][1]
     title=rows[i][2]
     h1=rows[i][2]
-    h2=rows[i][3]
+    h2='write a program to '+rows[i][2]
     explanation='explanation goes here'
     code='code goes here'
     filename=component+'\\' + (rows[i][1])+'.html'

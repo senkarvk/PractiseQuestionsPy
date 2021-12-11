@@ -1,2 +1,2 @@
 component,filename,title,h,explanation,code
-string,chkAnagram,check if two strings are Anagram,write a program to check if two strings are Anagram
+string,numnOfWords,Number of words in a sentence
