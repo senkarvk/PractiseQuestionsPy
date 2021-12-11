@@ -1,0 +1,3 @@
+component,filename,title,h,explanation,code
+list,remDuplicate,remove duplicate elements from list,write a program to remove duplicate elements from list,
+string,chkPalindrome,check string is palidrome, write a program to check if given string is Palindrome or not 
