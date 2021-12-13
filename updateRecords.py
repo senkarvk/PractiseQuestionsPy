@@ -76,7 +76,9 @@ for i in range(count):
              '<body>',
              '<h1>', h1, '</h1>', '<div>', '<h2>', h2, '</h2>',
              '<div>', '<p>', explanation, '</p>', '</div>',
-             '<div>', '<pre>', '<code class="language-python">', code, '</code>', '</pre>', '</div>',
+             '<div>', '<pre style="display: block; background:rgb(198, 210, 230); padding: 0.5em;">', 
+             '<code class="language-python" class="language-python" style="color: rgba(3, 3, 3, 0.89); font-size: 1rem;">', 
+              code, '</code>', '</pre>', '</div>',
              '</div>', '</body>', '</html>']
         e = [i+'\n' for i in e]
 
