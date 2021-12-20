@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Linux Notes</title>
+    </head>
+    <body>
+        <div>
+            <h1>Linux notes</h1>
+            <div>
+                <h2>Levels and Layers of Abstraction in Linux.</h2>
+                <p>A Linux system has three main levels.
+                    <ul>
+                        <li >Hardware is at the base -includes memory,CPU,etc
+                        </li>
+                        <li>
+                            next level up is the Kernel-which is core of OS.It is a software residing in memory.
+                            it acts as mediator b/w hardware and running program.
+                        </li>
+                        <li>
+                            Processes-running programs that kernel manages.this upper level also called as User space.
+                            ex-web server
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Kernel runs in Kernel mode, user process runs in user mode.Code running in kernel mode has unrestricted access 
+                    to the processor and main memory. This is a powerful but dangerous privilege that allows the kernel to easily 
+                    corrupt and crash the entire system. The memory area that only the kernel can access is called kernel space.
+                </p>
+                <p>
+                    User mode, in comparison, restricts access to a (usually quite small) subset of memory and safe CPU operations. 
+                    User space refers to the parts of main memory that the user processes can access. If a process makes a mistake and
+                     crashes, the consequences are limited and can be cleaned up by the kernel. This means that if your web browser crashes,
+                     it probably won’t take down the scientific computation that has been running in the background for days.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

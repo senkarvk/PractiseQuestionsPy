@@ -1,1 +1,2 @@
 component,filename,title,h,explanation,code
+regex,rmveBrackets,remove branckets from string
